@@ -1,0 +1,29 @@
+{	"sensorDevice_model":"D_AirQuality",
+	"keys": [
+		{"field": "id_device", "type":"partition"},
+		{"field": "datatime"  ,"type":"sort"}
+	],
+
+	"keys_measures":[
+		{"field": "id_device", "type":"string"},
+		{"field": "datatime", "type":"string"}
+	],
+
+	"other_measures":[
+		{"field": "CO(GT)", "type": "number"},
+		{"field":"PT08.S1(CO)", "type": "number"},
+		{"field":"NMHC(GT)", "type": "number"},
+		{"field":"C6H6(GT)", "type": "number"},
+		{"field":"PT08.S2(NMHC)", "type": "number"},
+		{"field":"NOx(GT)", "type": "number"},
+		{"field":"PT08.S3(NOx)", "type": "number"},
+		{"field":"NO2(GT)", "type": "number"},
+		{"field":"PT08.S4(NO2)", "type": "number"},
+		{"field":"PT08.S5(O3)", "type": "number"},
+		{"field":"T", "type": "number"},
+		{"field":"RH", "type": "number"},
+		{"field":"AH", "type": "number"},
+		{"field":"DAQI", "type": "number"}
+	]
+
+}
