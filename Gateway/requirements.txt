@@ -1,0 +1,5 @@
+flask==2.3.2
+colorama==0.4.6
+requests==2.29.0
+
+
