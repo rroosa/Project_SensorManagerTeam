@@ -1,0 +1,4 @@
+flask==2.3.2
+boto3==1.29.6
+colorama==0.4.6
+pandas==1.5.3
